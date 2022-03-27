@@ -28,7 +28,7 @@ a{
 
 
 }
-h1 ,h4 ,p{
+.hero.h1 ,.hero.h4 {
     color: white;
 
 
@@ -40,4 +40,19 @@ button{
     padding: 8px 16px;
     border-radius: 8px;
     
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.arcs{
+    display: flex;
+
+}
+.infoimg{
+    height: 300px;
+    width: 300px;
+    padding: 24px;
 }
