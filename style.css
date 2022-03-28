@@ -1,3 +1,6 @@
+html, body {
+    margin: 0;
+}
 body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
@@ -8,11 +11,12 @@ body{
 .header{
     background-color: #1f2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 0 16px;
     font-size: 32px;
     font-weight: 900;
+    height: 75px;
 }
 a{
     color: white;
@@ -21,8 +25,7 @@ a{
     padding: 24px;
 }
 .hero{
-    background-color: #1f2937;
-    
+    background-color: #1f2937;  
     display: flex;
     justify-content: space-around;
 
@@ -32,6 +35,9 @@ a{
     color: white;
 
 
+}
+.herotext , .actiontext{
+    color: white;
 }
 button{
     background: #3882F6;
@@ -54,5 +60,48 @@ button{
 .infoimg{
     height: 300px;
     width: 300px;
-    padding: 24px;
+    margin: 24px;
+    border: solid 5px black;
+    border-radius: 10px;
+}
+.arc1 , .arc2 , .arc3 , .arc4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.caps{
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #e5e7eb ;
+height: 200px;
+font-style: italic;
+font-size: 36px;
+
+}
+.calltoaction{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+
+}
+.callbox{
+    display: flex;
+    height: 100px;
+    width: 60%;
+    background-color: #3882f6;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 25px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+}
+.footertext{
+    color: #e5e7eb;
 }
